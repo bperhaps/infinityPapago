@@ -1,0 +1,321 @@
+07-Dec-2017 07:52:22.460 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Dec-2017 07:52:22.472 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 07:52:22.485 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 07:52:22.492 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Dec-2017 07:52:22.628 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 07:52:22.637 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 07:52:22.647 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 07:52:22.651 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 07:52:27.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+07-Dec-2017 07:52:27.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+07-Dec-2017 07:52:27.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+07-Dec-2017 07:52:27.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Dec-2017 07:52:27.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-31-generic
+07-Dec-2017 07:52:27.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Dec-2017 07:52:27.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+07-Dec-2017 07:52:27.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_151-b01
+07-Dec-2017 07:52:27.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Dec-2017 07:52:27.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 07:52:27.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 07:52:27.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/var/www/html/ms/webservice/apache-tomcat-8.5.24/conf/logging.properties
+07-Dec-2017 07:52:27.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Dec-2017 07:52:27.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Dec-2017 07:52:27.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Dec-2017 07:52:27.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Dec-2017 07:52:27.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 07:52:27.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 07:52:27.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/var/www/html/ms/webservice/apache-tomcat-8.5.24/temp
+07-Dec-2017 07:52:27.474 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Dec-2017 07:52:27.946 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 07:52:28.010 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Dec-2017 07:52:28.048 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 07:52:28.052 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Dec-2017 07:52:28.053 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2874 ms
+07-Dec-2017 07:52:28.234 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Dec-2017 07:52:28.236 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+07-Dec-2017 07:52:28.272 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/host-manager]
+07-Dec-2017 07:52:30.448 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/host-manager] has finished in [2,165] ms
+07-Dec-2017 07:52:30.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/examples]
+07-Dec-2017 07:52:32.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/examples] has finished in [2,057] ms
+07-Dec-2017 07:52:32.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/ROOT]
+07-Dec-2017 07:52:33.168 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 07:52:33.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/ROOT] has finished in [674] ms
+07-Dec-2017 07:52:33.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/docs]
+07-Dec-2017 07:52:33.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/docs] has finished in [109] ms
+07-Dec-2017 07:52:33.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/manager]
+07-Dec-2017 07:52:33.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/manager] has finished in [142] ms
+07-Dec-2017 07:52:33.445 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 07:52:33.510 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 07:52:33.536 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5482 ms
+07-Dec-2017 11:28:26.502 INFO [http-nio-2831-exec-8] org.apache.tomcat.util.http.Parameters.processParameters Character decoding failed. Parameter [data] with value ['ë°°íê·¸ë¼ì´ë'ì í¥íì¼ë¡ êµ­ë´ìì ëì± ì¸ì§ëê° ëìì§ ê¸ë¡ë² ê²ì íë«í¼ 'ì¤í'ì´ ê°ìííì¸ ë¹í¸ì½ì¸ì ê²°ì ìë¨ì¼ë¡ ì§ìíì§ ìê² ë¤ê³  ì ì¸íë¤. ê¸ê²©íê² ê°ì¹ê° ë¤ë°ëë ë¹í¸ì½ì¸ì´ ê²ì ìíì ê±°ëíë ìë¨ì¼ë¡ ì°ì´ê¸°ì ë¶ì í©íë¤ê³  íë¨íê¸° ëë¬¸ì´ë¤.\n\nì¤íì ì´ìíë ë¯¸êµ­ ê²ìì¬ ë°¸ë¸ë 7ì¼ ìì¬ ì¤í ë¸ë¡ê·¸ë¥¼ íµí´ \\\"ë¹í¸ì½ì¸ì ëì ììë£ì ê°ì¹ ë³ëì±ì¼ë¡ ì¸í´, ì¤ëë¶ë¡ ì¤íì ê²°ì  ìë¨ ì¤ íëìë ë¹í¸ì½ì¸ì ëí ì§ìì ì¤ë¨íë¤\\\"ê³  ë°ííë¤.\n\níì¬ ì¸¡ì \\\"ì°ë¦¬ê° ì²ì ë¹í¸ì½ì¸ì ì§ìíê¸° ììíì ë ì½ 0.20ë¬ë¬ì ë¶ê³¼íë ê²°ì  ê±´ë¹ ììë£ë ì¬í´ 20ë¬ë¬ê¹ì§ ê¸ë±í´ ê°ì ìì¤ì ì ì§íê³  ìë¤\\\"ë©° \\\"ìíê¹ê²ë ë°¸ë¸ììë í´ë¹ ììë£ì ëí íµì  ê¶íì´ ì í ìì¼ë©°, ëì ììë£ë ë¹í¸ì½ì¸ì¼ë¡ êµ¬ë§¤í  ë ì§ë¶í´ì¼ í  ê°ê²©ì´ í°ë¬´ëìì´ ëìì§ë ê²°ê³¼ë¥¼ ê°ì ¸ì¨ë¤. ëì ê²°ì  ììë£ë ë¹í¸ì½ì¸ì ê°ì¹ê° í° í­ì¼ë¡ íë½íë ê²½ì° ëì± ë¬¸ì ê° ëë¤\\\"ê³  ì§ì íë¤.\n\n\n\n\në¹í¸ì½ì¸ì ìµê·¼ êµ­ë´Â·ì¸ ê¸ìµ ìì¥ìì ì£¼ëª©ë°ê³  ìë ê°ìííë¤. ìµê·¼ êµ­ë´ë¥¼ ì¤ì¬ì¼ë¡ ê¸ê²©í ìì¸ ë³ëì´ ì´ë¤ì§ë©´ì í¬ì ê³¼ì´ íìì´ ë²ì´ì§ê³  ìê¸°ë íë¤. ê°ìíí ì ë³´ ì¬ì´í¸ì¸ ì½ì¸ë§ì¼ìº¡ì ë°ë¥´ë©´ ë¹í¸ì½ì¸ì 7ì¼ ì¤ì  8ì50ë¶ íì¬ 1ë§4ì²ë¬ë¬, ì°ë¦¬ëì¼ë¡ ì½ 1ì²500ë§ìê°ëì ê±°ëëê³  ìë¤. ì´ë 24ìê° ë§ì 17.79% ê¸ì¦í ìì¹ë¤.\n\në°¸ë¸ë ë¹í¸ì½ì¸ì ì´ë¬í ê¸ê²©í ë³ëì±ì ì°ë ¤íë¤. ë¹í¸ì½ì¸ì¼ë¡ ê²ìì êµ¬ë§¤íë ¤ë ê³ ê°ìê² ë¬¸ì ê° ë  ìì§ê° ìë¤ë ì´ì ë¤.\n\níì¬ ì¸¡ì \\\"ì¤íìì ê²°ì ë¥¼ ì§íí  ë, ê³ ê°ì ê²ì ê°ê²©ì ëí ê¸ì¡ì ë¹í¸ì½ì¸ì¼ë¡ ì¡ê¸íê³  ë¹í¸ì½ì¸ ë¤í¸ìí¬ìì ë¶ê³¼íë ììë£ ê¸ì¡ë ë¹í¸ì½ì¸ì¼ë¡ ì§ë¶í´ì¼ íë¤\\\"ë©° \\\"ì¼ì  ìê° ë´ì ê²°ì  ì²ë¦¬ê° ìë£ëì§ ëª»íë©´ ê·¸ë¡ ì¸í´ ë©ê¿ì¼ í  ë¹í¸ì½ì¸ì ì¡ìì ë³ëì´ ì¼ì´ëê² ëê³  ë³ë ê°ë¥í ì¡ìê° ìµê·¼ ê¸ë±í´ ìê¸ê³¼ ì¬íê² ì°¨ì´ê° ëë ìíì ì´ë¥´ë ë¤\\\"ê³  ì íë¤.\n\nê·¸ë¬ë©´ì ì´ë¬í ë¬¸ì ì ì¼ë°ì ì¸ í´ê²° ë°©ë²ì ì´ì©ììê² ìë ì¡ìë¥¼ íë¶íê±°ë, ë¨ììë ì°¨ì¡ì íë³µíê¸° ìí´ ì´ì©ììê² ì¶ê° ì¡ê¸ì ìêµ¬íë ê²\\\"ì´ë¼ë©° \\\"ììª½ ëª¨ëì ê²½ì° ì´ì©ìë ë¹í¸ì½ì¸ ë¤í¸ìí¬ì ê²°ì  ììë£ë¥¼ ë°ë³µí´ì ì²­êµ¬ ë¹íê² ëë¤. ì¬í´ ë¤ì´ì´ë¬í ìí©ì ê²ªì ê³ ê°ì ì«ìê° ì¦ê°íê³  ìë¤\\\"ê³  ë§ë¶ì´ê¸°ë íë¤.\n\nê²°ì  ììë£ê° ëìì§ íì¬ ìíìì ê³ ê°ìê² íë¶íê±°ë ìì¤ë ì°¨ì¡ì ì¡ê¸í  ê²½ì°, ë¹í¸ì½ì¸ ë¤í¸ìí¬ìì ì¶ê° ì¡ê¸ì¡ì ì²ë¦¬íë ëì ë³ëë ë¹í¸ì½ì¸ì ê°ì¹ì ë°ë¼ ë°ë³µí´ì ìí´ë¥¼ ë³¼ ì ìë ìíì´ ìë¤ë ê²ì´ë¤.\n\në°¸ë¸ë \\\"ë¹í¸ì½ì¸ì ì¬ì©ì ì§ìíë ê²ì´ ì¤í ì»¤ë®¤ëí° ìì¥ìì í©ë¦¬ì ì¸ ì íì¸ì§ ìëì§ë ëì¤ì ë¤ì íë¨íê² ë  ìë ìë¤\\\"ë©´ì \\\"ê¸°ì¡´ ë¹í¸ì½ì¸ ê´ë ¨ ë¯¸ê²°ì  ë° ê²°ì  ììë£ ëë¬¸ì ë³¸ ê²°ì ì ìí¥ì ë°ë ê³ ê°ê»ë ë¬¸ì ê° ìëë¡ ê³ì ë¸ë ¥íê² ë¤\\\"ê³  ì íë¤.\n'ë°°íê·¸ë¼ì´ë'ì í¥íì¼ë¡ êµ­ë´ìì ëì± ì¸ì§ëê° ëìì§ ê¸ë¡ë² ê²ì íë«í¼ 'ì¤í'ì´ ê°ìííì¸ ë¹í¸ì½ì¸ì ê²°ì ìë¨ì¼ë¡ ì§ìíì§ ìê² ë¤ê³  ì ì¸íë¤. ê¸ê²©íê² ê°ì¹ê° ë¤ë°ëë ë¹í¸ì½ì¸ì´ ê²ì ìíì ê±°ëíë ìë¨ì¼ë¡ ì°ì´ê¸°ì ë¶ì í©íë¤ê³  íë¨íê¸° ëë¬¸ì´ë¤.\n\nì¤íì ì´ìíë ë¯¸êµ­ ê²ìì¬ ë°¸ë¸ë 7ì¼ ìì¬ ì¤í ë¸ë¡ê·¸ë¥¼ íµí´ \\\"ë¹í¸ì½ì¸ì ëì ììë£ì ê°ì¹ ë³ëì±ì¼ë¡ ì¸í´, ì¤ëë¶ë¡ ì¤íì ê²°ì  ìë¨ ì¤ íëìë ë¹í¸ì½ì¸ì ëí ì§ìì ì¤ë¨íë¤\\\"ê³  ë°ííë¤.\n\níì¬ ì¸¡ì \\\"ì°ë¦¬ê° ì²ì ë¹í¸ì½ì¸ì ì§ìíê¸° ììíì ë ì½ 0.20ë¬ë¬ì ë¶ê³¼íë ê²°ì  ê±´ë¹ ììë£ë ì¬í´ 20ë¬ë¬ê¹ì§ ê¸ë±í´ ê°ì ìì¤ì ì ì§íê³  ìë¤\\\"ë©° \\\"ìíê¹ê²ë ë°¸ë¸ììë í´ë¹ ììë£ì ëí íµì  ê¶íì´ ì í ìì¼ë©°, ëì ììë£ë ë¹í¸ì½ì¸ì¼ë¡ êµ¬ë§¤í  ë ì§ë¶í´ì¼ í  ê°ê²©ì´ í°ë¬´ëìì´ ëìì§ë ê²°ê³¼ë¥¼ ê°ì ¸ì¨ë¤. ëì ê²°ì  ììë£ë ë¹í¸ì½ì¸ì ê°ì¹ê° í° í­ì¼ë¡ íë½íë ê²½ì° ëì± ë¬¸ì ê° ëë¤\\\"ê³  ì§ì íë¤.\n\n\n\n\në¹í¸ì½ì¸ì ìµê·¼ êµ­ë´Â·ì¸ ê¸ìµ ìì¥ìì ì£¼ëª©ë°ê³  ìë ê°ìííë¤. ìµê·¼ êµ­ë´ë¥¼ ì¤ì¬ì¼ë¡ ê¸ê²©í ìì¸ ë³ëì´ ì´ë¤ì§ë©´ì í¬ì ê³¼ì´ íìì´ ë²ì´ì§ê³  ìê¸°ë íë¤. ê°ìíí ì ë³´ ì¬ì´í¸ì¸ ì½ì¸ë§ì¼ìº¡ì ë°ë¥´ë©´ ë¹í¸ì½ì¸ì 7ì¼ ì¤ì  8ì50ë¶ íì¬ 1ë§4ì²ë¬ë¬, ì°ë¦¬ëì¼ë¡ ì½ 1ì²500ë§ìê°ëì ê±°ëëê³  ìë¤. ì´ë 24ìê° ë§ì 17.79% ê¸ì¦í ìì¹ë¤.\n\në°¸ë¸ë ë¹í¸ì½ì¸ì ì´ë¬í ê¸ê²©í ë³ëì±ì ì°ë ¤íë¤. ë¹í¸ì½ì¸ì¼ë¡ ê²ìì êµ¬ë§¤íë ¤ë ê³ ê°ìê² ë¬¸ì ê° ë  ìì§ê° ìë¤ë ì´ì ë¤.\n\níì¬ ì¸¡ì \\\"ì¤íìì ê²°ì ë¥¼ ì§íí  ë, ê³ ê°ì ê²ì ê°ê²©ì ëí ê¸ì¡ì ë¹í¸ì½ì¸ì¼ë¡ ì¡ê¸íê³  ë¹í¸ì½ì¸ ë¤í¸ìí¬ìì ë¶ê³¼íë ììë£ ê¸ì¡ë ë¹í¸ì½ì¸ì¼ë¡ ì§ë¶í´ì¼ íë¤\\\"ë©° \\\"ì¼ì  ìê° ë´ì ê²°ì  ì²ë¦¬ê° ìë£ëì§ ëª»íë©´ ê·¸ë¡ ì¸í´ ë©ê¿ì¼ í  ë¹í¸ì½ì¸ì ì¡ìì ë³ëì´ ì¼ì´ëê² ëê³  ë³ë ê°ë¥í ì¡ìê° ìµê·¼ ê¸ë±í´ ìê¸ê³¼ ì¬íê² ì°¨ì´ê° ëë ìíì ì´ë¥´ë ë¤\\\"ê³  ì íë¤.\n\nê·¸ë¬ë©´ì ì´ë¬í ë¬¸ì ì ì¼ë°ì ì¸ í´ê²° ë°©ë²ì ì´ì©ììê² ìë ì¡ìë¥¼ íë¶íê±°ë, ë¨ììë ì°¨ì¡ì íë³µíê¸° ìí´ ì´ì©ììê² ì¶ê° ì¡ê¸ì ìêµ¬íë ê²\\\"ì´ë¼ë©° \\\"ììª½ ëª¨ëì ê²½ì° ì´ì©ìë ë¹í¸ì½ì¸ ë¤í¸ìí¬ì ê²°ì  ììë£ë¥¼ ë°ë³µí´ì ì²­êµ¬ ë¹íê² ëë¤. ì¬í´ ë¤ì´ì´ë¬í ìí©ì ê²ªì ê³ ê°ì ì«ìê° ì¦ê°íê³  ìë¤\\\"ê³  ë§ë¶ì´ê¸°ë íë¤.\n\nê²°ì  ììë£ê° ëìì§ íì¬ ìíìì ê³ ê°ìê² íë¶íê±°ë ìì¤ë ì°¨ì¡ì ì¡ê¸í  ê²½ì°, ë¹í¸ì½ì¸ ë¤í¸ìí¬ìì ì¶ê° ì¡ê¸ì¡ì ì²ë¦¬íë ëì ë³ëë ë¹í¸ì½ì¸ì ê°ì¹ì ë°ë¼ ë°ë³µí´ì ìí´ë¥¼ ë³¼ ì ìë ìíì´ ìë¤ë ê²ì´ë¤.\n\në°¸ë¸ë \\\"ë¹í¸ì½ì¸ì ì¬ì©ì ì§ìíë ê²ì´ ì¤í ì»¤ë®¤ëí° ìì¥ìì í©ë¦¬ì ì¸ ì íì¸ì§ ìëì§ë ëì¤ì ë¤ì íë¨íê² ë  ìë ìë¤\\\"ë©´ì \\\"ê¸°ì¡´ ë¹í¸ì½ì¸ ê´ë ¨ ë¯¸ê²°ì  ë° ê²°ì  ììë£ ëë¬¸ì ë³¸ ê²°ì ì ìí¥ì ë°ë ê³ ê°ê»ë ë¬¸ì ê° ìëë¡ ê³ì ë¸ë ¥íê² ë¤\\\"ê³  ì íë¤.\n'ë°°íê·¸ë¼ì´ë'ì í¥íì¼ë¡ êµ­ë´ìì ëì± ì¸ì§ëê° ëìì§ ê¸ë¡ë² ê²ì íë«í¼ 'ì¤í'ì´ ê°ìííì¸ ë¹í¸ì½ì¸ì ê²°ì ìë¨ì¼ë¡ ì§ìíì§ ìê² ë¤ê³  ì ì¸íë¤. ê¸ê²©íê² ê°ì¹ê° ë¤ë°ëë ë¹í¸ì½ì¸ì´ ê²ì ìíì ê±°ëíë ìë¨ì¼ë¡ ì°ì´ê¸°ì ë¶ì í©íë¤ê³  íë¨íê¸° ëë¬¸ì´ë¤.\n\nì¤íì ì´ìíë ë¯¸êµ­ ê²ìì¬ ë°¸ë¸ë 7ì¼ ìì¬ ì¤í ë¸ë¡ê·¸ë¥¼ íµí´ \\\"ë¹í¸ì½ì¸ì ëì ììë£ì ê°ì¹ ë³ëì±ì¼ë¡ ì¸í´, ì¤ëë¶ë¡ ì¤íì ê²°ì  ìë¨ ì¤ íëìë ë¹í¸ì½ì¸ì ëí ì§ìì ì¤ë¨íë¤\\\"ê³  ë°ííë¤.\n\níì¬ ì¸¡ì \\\"ì°ë¦¬ê° ì²ì ë¹í¸ì½ì¸ì ì§ìíê¸° ììíì ë ì½ 0.20ë¬ë¬ì ë¶ê³¼íë ê²°ì  ê±´ë¹ ììë£ë ì¬í´ 20ë¬ë¬ê¹ì§ ê¸ë±í´ ê°ì ìì¤ì ì ì§íê³  ìë¤\\\"ë©° \\\"ìíê¹ê²ë ë°¸ë¸ììë í´ë¹ ììë£ì ëí íµì  ê¶íì´ ì í ìì¼ë©°, ëì ììë£ë ë¹í¸ì½ì¸ì¼ë¡ êµ¬ë§¤í  ë ì§ë¶í´ì¼ í  ê°ê²©ì´ í°ë¬´ëìì´ ëìì§ë ê²°ê³¼ë¥¼ ê°ì ¸ì¨ë¤. ëì ê²°ì  ììë£ë ë¹í¸ì½ì¸ì ê°ì¹ê° í° í­ì¼ë¡ íë½íë ê²½ì° ëì± ë¬¸ì ê° ëë¤\\\"ê³  ì§ì íë¤.\n\n\n\n\në¹í¸ì½ì¸ì ìµê·¼ êµ­ë´Â·ì¸ ê¸ìµ ìì¥ìì ì£¼ëª©ë°ê³  ìë ê°ìííë¤. ìµê·¼ êµ­ë´ë¥¼ ì¤ì¬ì¼ë¡ ê¸ê²©í ìì¸ ë³ëì´ ì´ë¤ì§ë©´ì í¬ì ê³¼ì´ íìì´ ë²ì´ì§ê³  ìê¸°ë íë¤. ê°ìíí ì ë³´ ì¬ì´í¸ì¸ ì½ì¸ë§ì¼ìº¡ì ë°ë¥´ë©´ ë¹í¸ì½ì¸ì 7ì¼ ì¤ì  8ì50ë¶ íì¬ 1ë§4ì²ë¬ë¬, ì°ë¦¬ëì¼ë¡ ì½ 1ì²500ë§ìê°ëì ê±°ëëê³  ìë¤. ì´ë 24ìê° ë§ì 17.79% ê¸ì¦í ìì¹ë¤.\n\në°¸ë¸ë ë¹í¸ì½ì¸ì ì´ë¬í ê¸ê²©í ë³ëì±ì ì°ë ¤íë¤. ë¹í¸ì½ì¸ì¼ë¡ ê²ìì êµ¬ë§¤íë ¤ë ê³ ê°ìê² ë¬¸ì ê° ë  ìì§ê° ìë¤ë ì´ì ë¤.\n\níì¬ ì¸¡ì \\\"ì¤íìì ê²°ì ë¥¼ ì§íí  ë, ê³ ê°ì ê²ì ê°ê²©ì ëí ê¸ì¡ì ë¹í¸ì½ì¸ì¼ë¡ ì¡ê¸íê³  ë¹í¸ì½ì¸ ë¤í¸ìí¬ìì ë¶ê³¼íë ììë£ ê¸ì¡ë ë¹í¸ì½ì¸ì¼ë¡ ì§ë¶í´ì¼ íë¤\\\"ë©° \\\"ì¼ì  ìê° ë´ì ê²°ì  ì²ë¦¬ê° ìë£ëì§ ëª»íë©´ ê·¸ë¡ ì¸í´ ë©ê¿ì¼ í  ë¹í¸ì½ì¸ì ì¡ìì ë³ëì´ ì¼ì´ëê² ëê³  ë³ë ê°ë¥í ì¡ìê° ìµê·¼ ê¸ë±í´ ìê¸ê³¼ ì¬íê² ì°¨ì´ê° ëë ìíì ì´ë¥´ë ë¤\\\"ê³  ì íë¤.\n\nê·¸ë¬ë©´ì ì´ë¬í ë¬¸ì ì ì¼ë°ì ì¸ í´ê²° ë°©ë²ì ì´ì©ììê² ìë ì¡ìë¥¼ íë¶íê±°ë, ë¨ììë ì°¨ì¡ì íë³µíê¸° ìí´ ì´ì©ììê² ì¶ê° ì¡ê¸ì ìêµ¬íë ê²\\\"ì´ë¼ë©° \\\"ììª½ ëª¨ëì ê²½ì° ì´ì©ìë ë¹í¸ì½ì¸ ë¤í¸ìí¬ì ê²°ì  ììë£ë¥¼ ë°ë³µí´ì ì²­êµ¬ ë¹íê² ëë¤. ì¬í´ ë¤ì´ì´ë¬í ìí©ì ê²ªì ê³ ê°ì ì«ìê° ì¦ê°íê³  ìë¤\\\"ê³  ë§ë¶ì´ê¸°ë íë¤.\n\nê²°ì  ììë£ê° ëìì§ íì¬ ìíìì ê³ ê°ìê² íë¶íê±°ë ìì¤ë ì°¨ì¡ì ì¡ê¸í  ê²½ì°, ë¹í¸ì½ì¸ ë¤í¸ìí¬ìì ì¶ê° ì¡ê¸ì¡ì ì²ë¦¬íë ëì ë³ëë ë¹í¸ì½ì¸ì ê°ì¹ì ë°ë¼ ë°ë³µí´ì ìí´ë¥¼ ë³¼ ì ìë ìíì´ ìë¤ë ê²ì´ë¤.\n\në°¸ë¸ë \\\"ë¹í¸ì½ì¸ì ì¬ì©ì ì§ìíë ê²ì´ ì¤í ì»¤ë®¤ëí° ìì¥ìì í©ë¦¬ì ì¸ ì íì¸ì§ ìëì§ë ëì¤ì ë¤ì íë¨íê² ë  ìë ìë¤\\\"ë©´ì \\\"ê¸°ì¡´ ë¹í¸ì½ì¸ ê´ë ¨ ë¯¸ê²°ì  ë° ê²°ì  ììë£ ëë¬¸ì ë³¸ ê²°ì ì ìí¥ì ë°ë ê³ ê°ê»ë ë¬¸ì ê° ìëë¡ ê³ì ë¸ë ¥íê² ë¤\\\"ê³  ì íë¤.\n'ë°°íê·¸ë¼ì´ë'ì í¥íì¼ë¡ êµ­ë´ìì ëì± ì¸ì§ëê° ëìì§ ê¸ë¡ë² ê²ì íë«í¼ 'ì¤í'ì´ ê°ìííì¸ ë¹í¸ì½ì¸ì ê²°ì ìë¨ì¼ë¡ ì§ìíì§ ìê² ë¤ê³  ì ì¸íë¤. ê¸ê²©íê² ê°ì¹ê° ë¤ë°ëë ë¹í¸ì½ì¸ì´ ê²ì ìíì ê±°ëíë ìë¨ì¼ë¡ ì°ì´ê¸°ì ë¶ì í©íë¤ê³  íë¨íê¸° ëë¬¸ì´ë¤.\n\nì¤íì ì´ìíë ë¯¸êµ­ ê²ìì¬ ë°¸ë¸ë 7ì¼ ìì¬ ì¤í ë¸ë¡ê·¸ë¥¼ íµí´ \\\"ë¹í¸ì½ì¸ì ëì ììë£ì ê°ì¹ ë³ëì±ì¼ë¡ ì¸í´, ì¤ëë¶ë¡ ì¤íì ê²°ì  ìë¨ ì¤ íëìë ë¹í¸ì½ì¸ì ëí ì§ìì ì¤ë¨íë¤\\\"ê³  ë°ííë¤.\n\níì¬ ì¸¡ì \\\"ì°ë¦¬ê° ì²ì ë¹í¸ì½ì¸ì ì§ìíê¸° ììíì ë ì½ 0.20ë¬ë¬ì ë¶ê³¼íë ê²°ì  ê±´ë¹ ììë£ë ì¬í´ 20ë¬ë¬ê¹ì§ ê¸ë±í´ ê°ì ìì¤ì ì ì§íê³  ìë¤\\\"ë©° \\\"ìíê¹ê²ë ë°¸ë¸ììë í´ë¹ ììë£ì ëí íµì  ê¶íì´ ì í ìì¼ë©°, ëì ììë£ë ë¹í¸ì½ì¸ì¼ë¡ êµ¬ë§¤í  ë ì§ë¶í´ì¼ í  ê°ê²©ì´ í°ë¬´ëìì´ ëìì§ë ê²°ê³¼ë¥¼ ê°ì ¸ì¨ë¤. ëì ê²°ì  ììë£ë ë¹í¸ì½ì¸ì ê°ì¹ê° í° í­ì¼ë¡ íë½íë ê²½ì° ëì± ë¬¸ì ê° ëë¤\\\"ê³  ì§ì íë¤.\n\n\n\n\në¹í¸ì½ì¸ì ìµê·¼ êµ­ë´Â·ì¸ ê¸ìµ ìì¥ìì ì£¼ëª©ë°ê³  ìë ê°ìííë¤. ìµê·¼ êµ­ë´ë¥¼ ì¤ì¬ì¼ë¡ ê¸ê²©í ìì¸ ë³ëì´ ì´ë¤ì§ë©´ì í¬ì ê³¼ì´ íìì´ ë²ì´ì§ê³  ìê¸°ë íë¤. ê°ìíí ì ë³´ ì¬ì´í¸ì¸ ì½ì¸ë§ì¼ìº¡ì ë°ë¥´ë©´ ë¹í¸ì½ì¸ì 7ì¼ ì¤ì  8ì50ë¶ íì¬ 1ë§4ì²ë¬ë¬, ì°ë¦¬ëì¼ë¡ ì½ 1ì²500ë§ìê°ëì ê±°ëëê³  ìë¤. ì´ë 24ìê° ë§ì 17.79% ê¸ì¦í ìì¹ë¤.] has been ignored. Note that the name and value quoted here may be corrupted due to the failed decoding. Use debug level logging to see the original, non-corrupted values.
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+07-Dec-2017 12:53:30.062 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Dec-2017 12:53:30.104 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 12:53:30.233 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 12:53:30.287 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Dec-2017 12:53:30.584 INFO [localhost-startStop-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [2] instance(s) to be deallocated for Servlet [jsp]
+07-Dec-2017 12:53:31.640 INFO [localhost-startStop-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [2] instance(s) to be deallocated for Servlet [jsp]
+07-Dec-2017 12:53:32.662 INFO [localhost-startStop-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [2] instance(s) to be deallocated for Servlet [jsp]
+07-Dec-2017 12:53:34.138 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Dec-2017 12:53:34.147 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.io.FileInputStream.readBytes(Native Method)
+ java.io.FileInputStream.read(FileInputStream.java:272)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:273)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+ sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+ sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+ java.io.InputStreamReader.read(InputStreamReader.java:184)
+ java.io.BufferedReader.fill(BufferedReader.java:154)
+ java.io.BufferedReader.readLine(BufferedReader.java:317)
+ java.io.BufferedReader.readLine(BufferedReader.java:382)
+ org.apache.jsp.translate_jsp._jspService(translate_jsp.java:139)
+ org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+ org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+ org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+07-Dec-2017 12:53:34.148 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.io.FileInputStream.readBytes(Native Method)
+ java.io.FileInputStream.read(FileInputStream.java:272)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:273)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+ sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+ sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+ java.io.InputStreamReader.read(InputStreamReader.java:184)
+ java.io.BufferedReader.fill(BufferedReader.java:154)
+ java.io.BufferedReader.readLine(BufferedReader.java:317)
+ java.io.BufferedReader.readLine(BufferedReader.java:382)
+ org.apache.jsp.translate_jsp._jspService(translate_jsp.java:139)
+ org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+ org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+ org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+07-Dec-2017 12:53:34.149 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:135)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+ java.lang.Thread.run(Thread.java:748)
+07-Dec-2017 12:53:34.239 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 12:53:34.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+07-Dec-2017 12:53:34.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+07-Dec-2017 12:53:34.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+07-Dec-2017 12:53:34.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Dec-2017 12:53:34.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-31-generic
+07-Dec-2017 12:53:34.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Dec-2017 12:53:34.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+07-Dec-2017 12:53:34.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_151-b01
+07-Dec-2017 12:53:34.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Dec-2017 12:53:34.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 12:53:34.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 12:53:34.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/var/www/html/ms/webservice/apache-tomcat-8.5.24/conf/logging.properties
+07-Dec-2017 12:53:34.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Dec-2017 12:53:34.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Dec-2017 12:53:34.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Dec-2017 12:53:34.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Dec-2017 12:53:34.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 12:53:34.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 12:53:34.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/var/www/html/ms/webservice/apache-tomcat-8.5.24/temp
+07-Dec-2017 12:53:34.989 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Dec-2017 12:53:35.668 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 12:53:35.808 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-2831]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-2831]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+07-Dec-2017 12:53:35.813 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 12:53:35.837 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+07-Dec-2017 12:53:35.843 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3813 ms
+07-Dec-2017 12:53:36.038 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Dec-2017 12:53:36.039 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+07-Dec-2017 12:53:36.064 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/host-manager]
+07-Dec-2017 12:53:37.230 INFO [82] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+07-Dec-2017 12:53:39.154 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:53:39.254 WARNING [main] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-2831] has not fully shutdown. Some application threads may still be running.
+07-Dec-2017 12:53:39.254 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 12:53:39.325 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 12:53:39.328 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 12:53:39.461 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+07-Dec-2017 12:53:39.564 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/host-manager] has finished in [3,500] ms
+07-Dec-2017 12:53:39.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/examples]
+07-Dec-2017 12:53:42.123 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:53:42.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/examples] has finished in [2,883] ms
+07-Dec-2017 12:53:42.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/ROOT]
+07-Dec-2017 12:53:43.140 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:53:43.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/ROOT] has finished in [726] ms
+07-Dec-2017 12:53:43.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/docs]
+07-Dec-2017 12:53:43.679 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:53:43.691 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/docs] has finished in [503] ms
+07-Dec-2017 12:53:43.695 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/manager]
+07-Dec-2017 12:53:44.144 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:53:44.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/manager] has finished in [455] ms
+07-Dec-2017 12:53:44.167 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8323 ms
+07-Dec-2017 12:53:50.842 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Dec-2017 12:53:50.843 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 12:53:50.844 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 12:53:50.844 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Dec-2017 12:53:50.966 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 12:53:50.966 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 12:53:50.967 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 12:53:50.967 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 12:53:57.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+07-Dec-2017 12:53:57.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+07-Dec-2017 12:53:57.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+07-Dec-2017 12:53:57.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Dec-2017 12:53:57.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-31-generic
+07-Dec-2017 12:53:57.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Dec-2017 12:53:57.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+07-Dec-2017 12:53:57.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_151-b01
+07-Dec-2017 12:53:57.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Dec-2017 12:53:57.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 12:53:57.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 12:53:57.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/var/www/html/ms/webservice/apache-tomcat-8.5.24/conf/logging.properties
+07-Dec-2017 12:53:57.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Dec-2017 12:53:57.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Dec-2017 12:53:57.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Dec-2017 12:53:57.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Dec-2017 12:53:57.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 12:53:57.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/var/www/html/ms/webservice/apache-tomcat-8.5.24
+07-Dec-2017 12:53:57.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/var/www/html/ms/webservice/apache-tomcat-8.5.24/temp
+07-Dec-2017 12:53:57.996 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Dec-2017 12:53:58.344 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 12:53:58.456 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Dec-2017 12:53:58.518 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 12:53:58.530 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Dec-2017 12:53:58.543 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2909 ms
+07-Dec-2017 12:53:58.700 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Dec-2017 12:53:58.701 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+07-Dec-2017 12:53:58.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/host-manager]
+07-Dec-2017 12:54:01.876 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:54:02.073 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/host-manager] has finished in [3,349] ms
+07-Dec-2017 12:54:02.076 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/examples]
+07-Dec-2017 12:54:03.602 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:54:03.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/examples] has finished in [1,778] ms
+07-Dec-2017 12:54:03.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/ROOT]
+07-Dec-2017 12:54:04.314 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:54:04.349 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/ROOT] has finished in [488] ms
+07-Dec-2017 12:54:04.350 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/docs]
+07-Dec-2017 12:54:04.928 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:54:04.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/docs] has finished in [584] ms
+07-Dec-2017 12:54:04.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/manager]
+07-Dec-2017 12:54:05.254 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2017 12:54:05.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/manager] has finished in [332] ms
+07-Dec-2017 12:54:05.279 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2831"]
+07-Dec-2017 12:54:05.330 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Dec-2017 12:54:05.356 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6812 ms

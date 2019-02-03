@@ -1,0 +1,61 @@
+04-Feb-2019 02:35:30.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+04-Feb-2019 02:35:30.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+04-Feb-2019 02:35:30.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+04-Feb-2019 02:35:30.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Feb-2019 02:35:30.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-31-generic
+04-Feb-2019 02:35:30.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Feb-2019 02:35:30.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+04-Feb-2019 02:35:30.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_151-b01
+04-Feb-2019 02:35:30.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Feb-2019 02:35:30.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /var/www/html/ms/webservice/apache-tomcat-8.5.24
+04-Feb-2019 02:35:30.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /var/www/html/ms/webservice/apache-tomcat-8.5.24
+04-Feb-2019 02:35:30.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/var/www/html/ms/webservice/apache-tomcat-8.5.24/conf/logging.properties
+04-Feb-2019 02:35:30.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Feb-2019 02:35:30.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Feb-2019 02:35:30.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Feb-2019 02:35:30.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Feb-2019 02:35:30.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/var/www/html/ms/webservice/apache-tomcat-8.5.24
+04-Feb-2019 02:35:30.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/var/www/html/ms/webservice/apache-tomcat-8.5.24
+04-Feb-2019 02:35:30.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/var/www/html/ms/webservice/apache-tomcat-8.5.24/temp
+04-Feb-2019 02:35:30.444 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+04-Feb-2019 02:35:30.889 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2831"]
+04-Feb-2019 02:35:30.937 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Feb-2019 02:35:30.972 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Feb-2019 02:35:30.993 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Feb-2019 02:35:30.994 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2141 ms
+04-Feb-2019 02:35:31.122 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Feb-2019 02:35:31.122 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+04-Feb-2019 02:35:31.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/host-manager]
+04-Feb-2019 02:35:33.174 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2019 02:35:33.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/host-manager] has finished in [2,282] ms
+04-Feb-2019 02:35:33.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/examples]
+04-Feb-2019 02:35:34.470 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2019 02:35:34.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/examples] has finished in [1,198] ms
+04-Feb-2019 02:35:34.634 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/ROOT]
+04-Feb-2019 02:35:34.996 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2019 02:35:35.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/ROOT] has finished in [367] ms
+04-Feb-2019 02:35:35.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/docs]
+04-Feb-2019 02:35:35.267 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2019 02:35:35.272 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/docs] has finished in [270] ms
+04-Feb-2019 02:35:35.273 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/manager]
+04-Feb-2019 02:35:35.485 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2019 02:35:35.498 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/www/html/ms/webservice/apache-tomcat-8.5.24/webapps/manager] has finished in [224] ms
+04-Feb-2019 02:35:35.513 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2831"]
+04-Feb-2019 02:35:35.560 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-Feb-2019 02:35:35.585 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4590 ms
+04-Feb-2019 04:44:41.505 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+04-Feb-2019 04:44:41.506 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2831"]
+04-Feb-2019 04:44:41.508 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+04-Feb-2019 04:44:41.509 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Feb-2019 04:44:41.615 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Feb-2019 04:44:41.616 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:135)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+ java.lang.Thread.run(Thread.java:748)
+04-Feb-2019 04:44:41.647 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2831"]
+04-Feb-2019 04:44:41.648 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+04-Feb-2019 04:44:41.650 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2831"]
+04-Feb-2019 04:44:41.650 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
