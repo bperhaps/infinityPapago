@@ -1,49 +1,28 @@
 #-*- coding: utf-8 -*-
-import re
 import sys
 import base64
 from urllib.parse   import quote
 import requests, json
-import ssl
-import subprocess
-
-def remove_tag(content):
-   cleanr =re.compile('<.*?>')
-   cleantext = re.sub(cleanr, '', content)
-   return cleantext
 
 def translater(From, to, string) :
 	data_signature = 'rlWxMKMcL2IWMPV6Ijg0ZWU4OTYxLWUwNGYtNDBjMS04N2Y4LTFhMzM3YWQ1MDY3NyIsImRpY3QiOnRydWUsImRpY3REaXNwbGF5IjozMCwiaG9ub3JpZmljIjpmYWxzZSwiaW5zdGFudCI6ZmFsc2Us'
-        #data_signature = "rlWxMKMcL2IWMPV6Ijg0ZWU4OTYxLWUwNGYtNDBjMS04N2Y4LTFhMzM3YWQ1MDY3NyIsImRpY3QiOmZhbHNlLCJkaWN0RGlzcGxheSI6MzAsImhvbm9yaWZpYyI6ZmFsc2UsImluc3RhbnQiOnRydWUs"
-	
 	request_message = '"source":"{}","target":"{}","text":"{}"'.format(From, to, string) + '}';
-
-        #request_message = '{}","target":"{}","text":"{}","deviceId":"714addce-8b1d-40b9-9645-b2e5ec5dbbb5"'.format(From, to, string) + '}'
-
 
 	data_to_base64 = base64.b64encode(request_message.encode('utf-8'))
 	urlencoded_data = data_to_base64
 
-	#rlencoded_data = urlencode(data_to_base64, quote_via=quote_plus)
 	data =  data_signature + urlencoded_data.decode("utf-8")
 	data = data.replace("%0A", "")
+
 	if((From == "ko" and to == "ja") or (From=="ja" and to=="ko")) :
 		url = 'https://papago.naver.com/apis/nsmt/translate'
-	        #cmd = ['phantomjs','--output-encoding=utf-8', 'post.js', data, "1"]
 	else :
 		url = "https://papago.naver.com/apis/n2mt/translate";
-		#cmd = ['phantomjs','--output-encoding=utf-8', 'post.js', data, "0"]
-
-	#ata = 'rlWxMKMcL2IWMPV6Ijg0ZWU4OTYxLWUwNGYtNDBjMS04N2Y4LTFhMzM3YWQ1MDY3NyIsImRpY3QiOmZhbHNlLCJkaWN0RGlzcGxheSI6MzAsImhvbm9yaWZpYyI6ZmFsc2UsImluc3RhbnQiOnRydWUsInNvdXJjZSI6ImVuIiwidGFyZ2V0Ijoia28iLCJ0ZXh0IjoidGVzdCJ9'
 	params = {'data': data}
 	response = requests.post(url=url, data=params)
 	jsonData = json.dumps(response.json(), ensure_ascii=False)
 
-        #fd_popen = subprocess.Popen(cmd, stdout=subprocess.PIPE).stdout
-	#print remove_tag(fd_popen.read())
 	data = json.loads(jsonData)
-	#print data["translatedText"]
-	#return str(data)
 	return data["translatedText"]
 
 
@@ -85,7 +64,3 @@ for i in splitedText:
     result = result + translater(From, to, i)
 
 print(result)
-
-
-
-
